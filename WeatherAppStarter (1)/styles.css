@@ -13,8 +13,7 @@
 
 .left {
     float: left;
-    background: #f70000;
-    color: inherit;
+    background: #f70000 !important;
     padding:10px;
     width:150px;
     height:100%;
