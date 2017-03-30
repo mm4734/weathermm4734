@@ -38,26 +38,26 @@
 
 .right {
     float: right;
-    width:200px;
+    width:380px;
     height:100%;
 }
 
 
 .top {
-    height: 350px;
+    height: 2000px;
     width: 100%;
     margin: auto;
     background: #d4dbd3;
 }
 
 .top img {
-    margin-top: 14px;
+    margin-top: 90px;
 }
 
 
 
 .bottom {
-    height: 200px;
+    height: 400px;
     background: #d4bbd3;
     color: white;
     font-weight: bold;
