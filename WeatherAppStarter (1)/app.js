@@ -7,9 +7,7 @@ var wind;
 var direction;
 
 function updateByZip(zip){
-  var url = "http://api.openweathermap.org/data/2.5/weather?" +
-    "zip=" + zip +
-    "&APPID=" + APPID;
+  var url = "http://api.openweathermap.org/data/2.5/weather?" + "zip=" + zip + "&APPID=" + APPID;
   sendRequest(url);
 
 }
@@ -29,7 +27,7 @@ function sendRequest(url){
       update(weather);
     }
   };
-  xmlhttp.open("GET" , url, true);
+  xmlhttp.open("GET", url, true);
   xmlhttp.send();
 
 }
