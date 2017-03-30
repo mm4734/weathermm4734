@@ -33,10 +33,7 @@ window.onload = function () {
 	var zip = window.prompt("Could not discover your location. What is your zip code?");
 	updateByZip(zip);
     }
-
 }
-
-/* NEW */
 
 function updateByGeo(lat, lon){
     var url = "http://api.openweathermap.org/data/2.5/weather?" +
@@ -45,8 +42,6 @@ function updateByGeo(lat, lon){
 	"&APPID=" + APPID;
     sendRequest(url);    
 }
-
-
 function updateByZip(zip){
     var url = "http://api.openweathermap.org/data/2.5/weather?" +
 	"zip=" + zip +
