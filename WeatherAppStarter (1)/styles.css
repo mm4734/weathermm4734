@@ -13,7 +13,7 @@
 
 .left {
     float: left;
-    background: #595957 !important;
+    background: #d4cbd3 !important;
     padding:10px;
     width:150px;
     height:100%;
@@ -47,7 +47,7 @@
     height: 100px;
     width: 100%;
     margin: auto;
-    background: #595957;
+    background: #d4dbd3;
 }
 
 .top img {
@@ -58,7 +58,7 @@
 
 .bottom {
     height: 70px;
-    background: #a47744;
+    background: #d4bbd3;
     color: white;
     font-weight: bold;
 }
