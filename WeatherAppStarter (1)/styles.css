@@ -2,13 +2,15 @@
     margin: auto;
     width: 300px;
     height: 160px;
-    border: 1px solid black;
-    border-radius: 20px;
-    box-shadow: 10px 10px 50px #888888;
+    border: .25px solid black;
+    border-radius: 100px;
+    box-shadow: 10px 10px 50px #f7d9d9;
     overflow: hidden;
     text-align:center;
     font-family: "Mono";
 }
+
+/*Black part*/
 
 .left {
     float: left;
@@ -18,6 +20,8 @@
     height:100%;
     color:white;
 }
+
+
 
 .temperature {
     margin-top:30px;
@@ -39,6 +43,8 @@
     height:100%;
 }
 
+/*top right*/
+
 .top {
     height: 100px;
     width: 100%;
@@ -49,6 +55,8 @@
 .top img {
     margin-top: 15px;
 }
+
+/*bottom right*/
 
 .bottom {
     height: 70px;
